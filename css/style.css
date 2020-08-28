@@ -14,6 +14,7 @@ html {
     line-height: 1.5;
     min-width: 298px;
     height: 100%;
+    background-color: #444;
 }
 
 .navbar {
@@ -62,6 +63,7 @@ header {
     position: absolute;
     display: block;
     margin-left: 380px;
+    margin-bottom: 220px;
     padding: 20px;
     width: auto;
     background-color: #444;
@@ -107,4 +109,8 @@ code {
     padding: 15px;
     margin: 7px;
     border-radius: 5px;
+}
+
+#data_types ul li ul li {
+    list-style-type: circle;
 }
