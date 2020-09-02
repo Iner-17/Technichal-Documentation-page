@@ -1,116 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body,
 html {
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    color: #f4f4f4;
-    line-height: 1.5;
-    min-width: 298px;
-    height: 100%;
-    background-color: #444;
+  position: relative;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  color: #f4f4f4;
+  line-height: 1.5;
+  min-width: 298px;
+  height: 100%;
+  background-color: #444;
 }
 
 .navbar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 380px;
-    border-right: 3px solid #f4f4f4;
-    background-color: #333;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 380px;
+  border-right: 3px solid #f4f4f4;
+  background-color: #333;
 }
 
 header {
-    text-align: center;
-    font-size: 1.8em;
-    color: white;
-    margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  color: white;
+  margin: 10px;
 }
 
 .navbar ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 
 .navbar ul li {
-    border-top: 1px solid #f4f4f4;
-    list-style: none;
-    position: relative;
-    width: 100%;
+  border-top: 1px solid #f4f4f4;
+  list-style: none;
+  position: relative;
+  width: 100%;
 }
 
 .navbar ul li a {
-    display: block;
-    padding: 10px 30px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+  display: block;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .content {
-    position: absolute;
-    display: block;
-    margin-left: 380px;
-    margin-bottom: 220px;
-    padding: 20px;
-    width: auto;
-    background-color: #444;
+  position: absolute;
+  display: block;
+  margin-left: 380px;
+  margin-bottom: 220px;
+  padding: 20px;
+  width: auto;
+  background-color: #444;
 }
 
 section {
-    display: block;
+  display: block;
 }
 
 .main-content header {
-    text-align: left;
-    margin: 0px;
+  text-align: left;
+  margin: 0px;
 }
 
 p {
-    font-size: 0.96em;
-    margin: 20px;
+  font-size: 0.96em;
+  margin: 20px;
 }
 
 .content ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .content li {
-    margin: 15px 0 0 20px;
+  margin: 15px 0 0 20px;
 }
 
 code {
-    display: block;
-    text-align: left;
-    white-space: pre;
-    position: relative;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 2;
-    background-color: #9b9999;
-    padding: 15px;
-    margin: 7px;
-    border-radius: 5px;
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #9b9999;
+  padding: 15px;
+  margin: 7px;
+  border-radius: 5px;
 }
 
 #data_types ul li ul li {
-    list-style-type: circle;
+  list-style-type: circle;
 }
